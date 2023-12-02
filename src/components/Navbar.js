@@ -7,13 +7,14 @@ import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useNavigate } from "react-router-dom";
+import { Grid } from "@mui/material";
 
 const Navbar = () => {
   const navigate = useNavigate();
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
-        <Toolbar>
+        <Toolbar sx={{ flexGrow: 1 }}>
           <IconButton
             size="large"
             edge="start"
@@ -22,10 +23,18 @@ const Navbar = () => {
             sx={{ mr: 2 }}
           >
             <MenuIcon />
-          </IconButton>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Task
-          </Typography>
+          </IconButton>{" "}
+          <Grid sx={{ flexGrow: 1 }}>
+            <Button
+              variant="h6"
+              component="div"
+              onClick={() => {
+                navigate("/");
+              }}
+            >
+              Task
+            </Button>
+          </Grid>
           <Button
             color="inherit"
             onClick={() => {

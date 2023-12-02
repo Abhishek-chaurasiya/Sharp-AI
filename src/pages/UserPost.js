@@ -26,7 +26,7 @@ const UserPost = () => {
       caption: "Users post split",
       showvalues: "1",
       showpercentintooltip: "0",
-      numberprefix: "number of post -",
+      numberprefix: "number of post =",
       enablemultislicing: "1",
       theme: "umber",
     },

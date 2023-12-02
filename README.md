@@ -1,3 +1,18 @@
+# Sharpe Ai Task
+
+```bash
+
+Objective: To design and develop a simplified web application using React.js. This assignment will evaluate your ability to create seamless navigation using React Router, form input validation, error handling, and your proficiency in writing clean, readable code.
+
+```
+
+![Screenshot 2023-12-02 185644](https://github.com/Abhishek-chaurasiya/Sharp-AI/assets/107196798/d40d38a3-d348-45f6-9a28-e3f784941c5c)
+![Screenshot 2023-12-02 185658](https://github.com/Abhishek-chaurasiya/Sharp-AI/assets/107196798/fa70f360-3845-4e83-afa6-3958ce8cf462)
+![Screenshot 2023-12-02 185713](https://github.com/Abhishek-chaurasiya/Sharp-AI/assets/107196798/24c78b22-202a-4c21-a945-d41e71b98a28)
+![Screenshot 2023-12-02 185723](https://github.com/Abhishek-chaurasiya/Sharp-AI/assets/107196798/249f18e1-56c2-4d96-8300-d2260186ebc9)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

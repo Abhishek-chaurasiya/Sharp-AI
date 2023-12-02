@@ -6,6 +6,20 @@ Objective: To design and develop a simplified web application using React.js.
 This assignment will evaluate your ability to create seamless navigation using React Router,
 form input validation, error handling, and your proficiency in writing clean, readable code.
 
+1.Template Libraries:Material Ui
+2.React Router Navigation: Navigating with the help od react-router-dom
+3.Transaction Page (Form Input Validation checks):
+  On Transaction page, create a form that asks for the user's wallet address and amount.
+  Implemented valid wallet address using regular expression(0x1f9090aae28b8a3dceadf281b0f12828e676c326).
+  Amount: Entered amount is within provided range
+4. Data Page:
+  Fetched data from the open-source API using Axios - 'https://jsonplaceholder.typicode.com/posts'. -
+  Implemented the filtered data in a table format as well as in pie chart.
+5.Error Handling : React toastify to show corresponding error
+
+
+
+
 ```
 
 ![Screenshot 2023-12-02 185644](https://github.com/Abhishek-chaurasiya/Sharp-AI/assets/107196798/d40d38a3-d348-45f6-9a28-e3f784941c5c)
@@ -13,7 +27,7 @@ form input validation, error handling, and your proficiency in writing clean, re
 ![Screenshot 2023-12-02 185713](https://github.com/Abhishek-chaurasiya/Sharp-AI/assets/107196798/24c78b22-202a-4c21-a945-d41e71b98a28)
 ![Screenshot 2023-12-02 185723](https://github.com/Abhishek-chaurasiya/Sharp-AI/assets/107196798/249f18e1-56c2-4d96-8300-d2260186ebc9)
 
-
+6.Right now it is not responsive but i can work on it to do that.
 
 # Getting Started with Create React App
 
